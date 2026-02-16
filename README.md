@@ -28,7 +28,7 @@ This Streamlit app allows geologists and geochemists to visualize, analyze, and 
 
 1. Upload your Excel file via the sidebar.  
 2. Select a Depth Interval using the slider to focus on specific sections.  
-3. Explore Overall Geochemical Ratios: Interactive Plotly plots show multiple ratios together for comparison.  
+3. Explore Overall Geochemical Ratios: Interactive Plotly plots show multiple ratios together for comparison, highlighting trends, correlations and anomalies in the data.  
 4. Explore Individual Ratios: Each ratio has its own interactive plot with hover tooltips.  
 5. Check Statistical Interpretation Summary: Automatically generated summary shows the dominant geochemical and sedimentary conditions within the selected depth interval.
 
