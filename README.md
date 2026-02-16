@@ -7,8 +7,8 @@ This Streamlit app allows geologists and geochemists to visualize, analyze, and 
 
 #Features
 
-- Upload Excel Data: Supports elemental geochemistry files with columns like Ca, Mg, Ti, Mn, Fe, Sr, Ba, K, Na, V, Cr, and Depth (elemnatal ratio shuld be in the same  ).  
-- *Geochemical Ratio Tracks:* Interactive plots for major ratios like V/Cr, Fe/Mn, Sr/Ba, Na/K, Ca/Mg, Ti/Mn, and (Na+K)/(Ca+Mg).  
+- Upload Excel Data: Supports elemental geochemistry files with columns like Ca, Mg, Ti, Mn, Fe, Sr, Ba, K, Na, V, Cr, and Depth (Note: Ensure that all elements in the Excel file use the same units, either ppm or weight percent (%), to maintain consistency in ratio calculations).  
+- Geochemical Ratio Tracks: Interactive plots for major ratios like V/Cr, Fe/Mn, Sr/Ba, Na/K, Ca/Mg, Ti/Mn, and (Na+K)/(Ca+Mg).  
 - Facies Classification: Automatically classifies Redox conditions, Salinity, Weathering intensity, Sediment type, and Depositional Environment.  
 - Interactive Exploration: Select depth intervals and explore individual ratio tracks interactively with hover information.  
 - Statistical Interpretation Summary: For the selected depth interval, the app calculates:
@@ -28,7 +28,7 @@ This Streamlit app allows geologists and geochemists to visualize, analyze, and 
 
 1. Upload your Excel file via the sidebar.  
 2. Select a Depth Interval using the slider to focus on specific sections.  
-3. Explore Overall Geochemical Ratios: Interactive Plotly plots show multiple ratios together for comparison.  
+3. Explore Overall Geochemical Ratios: Interactive Plotly plots show multiple ratios together for comparison, highlighting trends, correlations and anomalies in the data.  
 4. Explore Individual Ratios: Each ratio has its own interactive plot with hover tooltips.  
 5. Check Statistical Interpretation Summary: Automatically generated summary shows the dominant geochemical and sedimentary conditions within the selected depth interval.
 
