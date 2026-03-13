@@ -1,11 +1,11 @@
 
-#Geochemical Interpretation Tool
+##Geochemical Interpretation Tool
 
-#Description 
+##Description 
 
 This Streamlit app allows geologists and geochemists to visualize, analyze, and interpret geochemical data from sediment cores. Users can upload Excel files containing elemental data and explore geochemical ratios, facies classifications and depositional environment interpretations interactively.
 
-#Features
+##Features
 
 - Upload Excel Data: Supports elemental geochemistry files with columns like Ca, Mg, Ti, Mn, Fe, Sr, Ba, K, Na, V, Cr, and Depth (Note: Ensure that all elements in the Excel file use the same units, either ppm or weight percent (%), to maintain consistency in ratio calculations).  
 - Geochemical Ratio Tracks: Interactive plots for major ratios like V/Cr, Fe/Mn, Sr/Ba, Na/K, Ca/Mg, Ti/Mn, and (Na+K)/(Ca+Mg).  
@@ -18,13 +18,13 @@ This Streamlit app allows geologists and geochemists to visualize, analyze, and 
   - Dominant Sediment type  
   - Depositional Environment  
 
-#Use Cases
+##Use Cases
 
 - Chemostratigraphy  
 - Paleoenvironmental interpretation  
 - Core or outcrop geochemical visualization  
 
-#Usage
+##Usage
 
 1. Upload your Excel file via the sidebar.  
 2. Select a Depth Interval using the slider to focus on specific sections.  
@@ -32,13 +32,13 @@ This Streamlit app allows geologists and geochemists to visualize, analyze, and 
 4. Explore Individual Ratios: Each ratio has its own interactive plot with hover tooltips.  
 5. Check Statistical Interpretation Summary: Automatically generated summary shows the dominant geochemical and sedimentary conditions within the selected depth interval.
 
-#Use Cases
+##Use Cases
 
 - Chemostratigraphy
 - Paleoenvironmental interpretation
 - Core or outcrop geochemical visualization
 
-#Installation
+##Installation
 
 1. Clone the repository:
 ```bash
@@ -46,7 +46,7 @@ git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
 
 
-#References for geochemical interpretations 
+##References for geochemical interpretations 
 
 Algeo, T.J. & Lyons, T.W. (2006). Mo–U covariation in modern anoxic marine environments: Implications for analysis of paleoredox and paleohydrographic conditions. Paleoceanography, 21, PA1016.
 
