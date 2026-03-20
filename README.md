@@ -3,6 +3,7 @@
 ## Description 
 
 This Streamlit app allows geologists and geochemists to visualize, analyze, and interpret geochemical data from sediment cores. Users can upload Excel files containing elemental data and explore geochemical ratios, facies classifications and depositional environment interpretations interactively.
+🔗 Live Application: https://geochemistry-interpretation-tool-djvv3mkrdfzk4x6jamr5pn.streamlit.app/#geochemical-interpretation-tool 
 
 ## Features
 
