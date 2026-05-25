@@ -17,7 +17,19 @@ This Streamlit app allows geologists and geochemists to visualize, analyze, and 
   - Weathering intensity  
   - Dominant Sediment type  
   - Depositional Environment  
+- Custom Field Information:
+  - Users can enter a custom Field Name and Field Number directly in the sidebar.
+  - These details are automatically included in the exported report.
 
+- PDF Report Export:
+  - Generate and download a professional PDF report directly from the app.
+  - The report includes:
+    - Field Name and Field Number
+    - Selected depth interval (m)
+    - Geochemical interpretation summary
+    - Redox percentage distribution
+    - High-resolution geochemical interpretation tracks
+      
 ## Use Cases
 
 - Chemostratigraphy  
@@ -31,12 +43,7 @@ This Streamlit app allows geologists and geochemists to visualize, analyze, and 
 3. Explore Overall Geochemical Ratios: Interactive Plotly plots show multiple ratios together for comparison, highlighting trends, correlations and anomalies in the data.  
 4. Explore Individual Ratios: Each ratio has its own interactive plot with hover tooltips.  
 5. Check Statistical Interpretation Summary: Automatically generated summary shows the dominant geochemical and sedimentary conditions within the selected depth interval.
-
-## Use Cases
-
-- Chemostratigraphy
-- Paleoenvironmental interpretation
-- Core or outcrop geochemical visualization
+6. Download PDF Report: Export a professional geochemical interpretation report including plots, interpretation summaries, redox percentage statistics, and field information.
 
 ## Installation
 
