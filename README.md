@@ -24,8 +24,8 @@ This Streamlit app allows geologists and geochemists to visualize, analyze, and 
 - PDF Report Export:
   - Generate and download a professional PDF report directly from the app.
   - The report includes:
-    - Field Name and Field Number
-    - Selected depth interval (m)
+    - Field Name and Well Number
+    - Selected depth interval
     - Geochemical interpretation summary
     - Redox percentage distribution
     - High-resolution geochemical interpretation tracks
